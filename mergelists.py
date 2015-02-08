@@ -26,5 +26,5 @@ new_file_name = sys.argv[1].replace('.txt','') + "-" + sys.argv[2].replace('.txt
 
 new_list_file = open(new_file_name,'w')
 for x in final_list:
-	new_list_file.write(x + '\n')
+	new_list_file.write(x)
 new_list_file.close()
